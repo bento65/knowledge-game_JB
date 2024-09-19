@@ -1,0 +1,92 @@
+body {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #000000;
+    color: #7209fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 24px;
+    /* Ajuste o tamanho conforme necessário */
+    height: 24px;
+    margin: 0 5px;
+    /* Espaço entre os ícones */
+}
+
+#social-media a {
+    text-decoration: none;
+    /* Remove o sublinhado */
+}
+
+#social-media a:hover .social-icon {
+    opacity: 0.7;
+    /* Efeito ao passar o mouse */
+}
+
+#footer {
+    font-size: 10px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ff0000;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.998);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+#characters {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #040dfe84;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0de5f4;
+}
+
+.hidden {
+    display: none;
+}
